@@ -6,7 +6,7 @@
 
 body {
 	padding-inline: 5%;
-	font-family: "Poppins", serif;
+	font-family: "Poppins", sans-serif;
 	color: var(--dark);
 	font-weight: 300;
     background-color: var(--white);
@@ -39,6 +39,8 @@ body {
 }
 .hc-small {
 	margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .hc-hero {
@@ -124,5 +126,8 @@ body {
 	text-align: center;
     padding: 20px 0;
     font-size: 20px;
+}
+.thinText{
+    font-weight: 500 !important;
 }
 /* End Footer */
