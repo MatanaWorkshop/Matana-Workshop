@@ -12,6 +12,24 @@ body {
     background-color: var(--white);
 }
 
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navLogo{
+    width: 150px;
+    height: auto;
+}
+.navLinks > a{
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+}
+/* End Navbar */
+
 /* Head Content */
 .headContent{
     display: grid;
