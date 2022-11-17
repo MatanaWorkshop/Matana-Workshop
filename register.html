@@ -38,7 +38,7 @@
 		</nav>
     </header>
     <main>
-        <section class="regisForm">
+        <form class="regisForm" id="regisForm">
             <div class="regisSpan">
                 <form action="/action_page.php">
 
@@ -63,9 +63,9 @@
 
                     <input type="submit" value="Submit" id="submit">
 
-                  </form> 
+                  </form>
             </div>
-        </section>
+        </form>
     </main>
     <footer class="footer">
         <h6 class="thinText">Made with ❤ by Matanian</h6>
@@ -73,11 +73,10 @@
 
 <!-- Javascript -->
 <script>
-    const submit = document.getElementById('submit');
-
-    submit.addEventListener('click', () => {
+    const form = document.getElementById('regisForm');
+    form.addEventListener('submit', () => {
         alert("Terimakasih Telah Mengisi Formulir");
-    })
+    });
 </script>
 <!-- End Javascript -->
 
